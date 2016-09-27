@@ -40,7 +40,7 @@ exports.loadTest = function(req, res) {
             path: "/items/" + (i % 2 ? itemId1 : itemId2)
 	}, callback);
     }
-*/
+//*/
 };
 
 
