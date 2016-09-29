@@ -28,7 +28,7 @@ exports.loadTest = function(req, res) {
 
         if (successCount + failCount === testCount) {
             var endTime = Date.now();
-            res.json({"loadTest success": successCount, "fail": failCount, "time": endTime - startTime});
+            res.json({"LoadTest success": successCount, "fail": failCount, "time": endTime - startTime});
         }
     };
 
